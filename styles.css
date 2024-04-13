@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(250, 234, 237);
+    color: palevioletred
+    
+    
+}
+
+div{
+    text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid palevioletred;
+  padding: 10px;
+}
+
+table{
+    min-width: 50%;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+table,th,td{
+    border: 1px solid ;
+    text-align: center;
+}
+th,td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+    background-color: palevioletred;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: rgb(228, 188, 201);
+    
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(243, 41, 75);
+    color: white;
+    border-color: white;
+    width: 20%;
+}
+#t2,#t1{
+    border-radius: 20px;
+    border-color:  palevioletred;
+    width: 10%;
+    height: 5%;
+   
+}
