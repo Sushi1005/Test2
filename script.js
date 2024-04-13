@@ -2,7 +2,7 @@ function generateTable() {
     var rows = parseInt(document.getElementById("t1").value);
     var cols = parseInt(document.getElementById("t2").value);
 
-    var table = "<table>";
+    var table = "<table class='center'>";
     for (var i = 0; i < rows; i++) {
         table += "<tr>";
         for (var j = 0; j < cols; j++) {
@@ -12,6 +12,8 @@ function generateTable() {
     }
     table += "</table>";
     document.body.innerHTML =  table ;
+    document.body.innerHTML =  table +"<div><button id='b2' onclick='addColumn()'>Add Column</button> " +"<button id='b3' onclick='addRow()'>Add Row</button></div>";
+
     
 }
 
